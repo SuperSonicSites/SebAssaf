@@ -1,0 +1,21 @@
+<!-- Business Quote Banner BEGIN-->
+<section class="hero is-primary is-medium mt-5 businessquote">
+    <div class="hero-body">
+    <div class="container has-text-centered">
+    
+        {{ if eq .Site.Language.Lang "fr" }}
+    
+        <h2 class="is-size-1">{{ .Site.Params.cta.businnessquote_fr }}</h2>
+    
+        {{ else }}
+    
+        <h2 class="is-size-1">{{ .Site.Params.cta.businnessquote_en }}</h2>
+    
+        {{ end }}
+
+    </div>
+
+</div>
+
+</section>
+<!-- Business Quote Banner END-->

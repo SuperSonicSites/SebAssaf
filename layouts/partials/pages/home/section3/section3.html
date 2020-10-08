@@ -1,0 +1,50 @@
+<section class="section section3">
+
+    <div class="container">
+
+        <h2 class="is-size-2 has-text-centered">
+
+            {{ .Params.section3__heading }}
+    
+        </h2>
+
+        <p class="has-text-centered my-3">
+
+            {{ .Params.section3__subheading }}
+
+        </p>
+
+        <img src="{{ .Site.BaseURL }}img/home_big_1400.jpg"
+        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-srcset="
+                {{ .Site.BaseURL }}img/home_big_1400.jpg 1400w,    
+                {{ .Site.BaseURL }}img/home_big_768.jpg 768w,
+                {{ .Site.BaseURL }}img/home_big_320.jpg 320w"
+	            data-sizes="auto"
+                class="lazyload shadow mt-6 fullwidth"
+                data-aos="fade" data-aos-duration="500"
+                alt="{{ .Params.home_big_alt }}"
+                />
+
+    </div>
+    
+</section>
+
+    <section class="section section3">
+
+        <div class="container">
+
+            <h2 class="is-size-2 has-text-centered">
+    
+                {{ .Params.section3__heading2 }}
+        
+            </h2>
+    
+            <p class="has-text-centered my-3">
+    
+                {{ .Params.section3__subheading2 }}
+    
+            </p>
+
+</div>
+</section>

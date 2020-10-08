@@ -1,0 +1,162 @@
+<section class="section has-background-dark has-text-white has-text-centered-touch">
+
+    <div class="has-text-centered pb-6">
+    
+      {{ if eq .Site.Language.Lang "fr" }}
+    
+      <h2 class="is-size-2 mb-5">{{ .Site.Params.cta.footer_heading_fr }}</h2>
+    
+      <a href="{{ .Site.BaseURL }}services" class="button is-primary is-medium" data-aos="zoom-in" data-aos-duration="500">{{ .Site.Params.cta.cta_fr }}</a>
+  
+      {{ else }}
+  
+      <h2 class="is-size-2 mb-5">{{ .Site.Params.footer_heading_en }}</h2>
+  
+      <a href="{{ .Site.BaseURL }}en/services" class="button is-primary is-medium" data-aos="zoom-in" data-aos-duration="500">{{ .Site.Params.cta.cta_en }}</a>
+  
+    {{ end }}
+
+    </div>
+
+  <div class="container">
+
+    <div class="divider my-5">
+      <div class="container"></div>
+  </div>
+
+    <div class="columns mt-6">
+
+    <div class="column is-3">
+
+      <img src="{{ .Site.BaseURL }}img/logo.png"
+                        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-srcset="{{ .Site.BaseURL }}img/logo.png 1x, {{ .Site.BaseURL }}img/logo@2x.png 2x"
+                        alt="{{ .Site.Params.businessname }}"
+                        class="lazyload"      
+                        />   
+    </div>
+
+    <div class="column is-3">
+      <h3 class="is-size-4 text-uppercase mb-2">{{ i18n "navigate" }}</h3>
+
+      <div class="">
+       
+        <ul class="">
+          {{ range .Site.Menus.main -}}
+          
+          <li class="py-1"><a class="has-text-primary" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          
+          {{ end }}
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="column is-3">
+      <h3 class="is-size-4 text-uppercase mb-2">{{ i18n "hours" }}</h3>
+      <ul class="">
+
+      {{ if .Site.Params.hours.hour1en }}
+        {{ if eq .Site.Language.Lang "fr" }}
+          <li class="">{{ .Site.Params.hours.hour1fr }}</li>
+          {{ else }}
+          <li class="">{{ .Site.Params.hours.hour1en }}</li>
+        {{ end }}
+        <span></span>
+        {{ end }}
+
+        {{ if .Site.Params.hours.hour2en }}
+        {{ if eq .Site.Language.Lang "fr" }}
+          <li class="">{{ .Site.Params.hours.hour2fr }}</li>
+          {{ else }}
+          <li class="">{{ .Site.Params.hours.hour2en }}</li>
+        {{ end }}
+        <span></span>
+        {{ end }}
+
+        {{ if .Site.Params.hours.hour3en }}
+        {{ if eq .Site.Language.Lang "fr" }}
+          <li class="">{{ .Site.Params.hours.hour3fr }}</li>
+          {{ else }}
+          <li class="">{{ .Site.Params.hours.hour3en }}</li>
+        {{ end }}
+        <span></span>
+        {{ end }}
+    </ul>
+
+    </div>
+
+    <div class="column is-3">
+      <h3 class="is-size-4 text-uppercase mb-2">CONTACT</h3>
+
+      <div class="">
+      {{ if .Site.Params.social.facebook }}
+      <a href="{{ .Site.Params.social.facebook }}" target="_blank" rel="nofollow noreferrer">
+        <svg class="fill-brand-footer">
+          <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#facebook"></use>
+        </svg>
+        </a>
+        {{ else }}
+        <span></span>
+        {{ end }}
+        {{ if .Site.Params.social.twitter }}
+        <a href="{{ .Site.Params.social.twitter }}" target="_blank" rel="nofollow noreferrer">
+          <svg class="fill-brand-footer">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#twitter"></use>
+          </svg>
+          </a>
+          {{ else }}
+        <span></span>
+        {{ end }}
+        {{ if .Site.Params.social.instagram }}
+        <a href="{{ .Site.Params.social.instagram }}" target="_blank" rel="nofollow noreferrer">
+        <svg class="fill-brand-footer">
+          <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#instagram"></use>
+        </svg>
+        </a>
+        {{ else }}
+        <span></span>
+        {{ end }}
+        {{ if .Site.Params.social.pinterest}}
+        <a href="{{ .Site.Params.social.pinterest }}" target="_blank" rel="nofollow noreferrer">
+        <svg class="fill-brand-footer">
+          <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#pinterest"></use>
+        </svg></a>
+        {{ else }}
+        <span></span>
+        {{ end }}
+        {{ if .Site.Params.social.linkedin}}
+        <a href="{{ .Site.Params.social.linkedin }}" target="_blank" rel="nofollow noreferrer">
+        <svg class="fill-brand-footer">
+          <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#linkedin"></use>
+        </svg></a>
+        {{ else }}
+        <span></span>
+        {{ end }}
+      </div>
+
+      <address class="">
+
+        <small>{{ .Site.Params.schema.address }},</small>
+        {{ if .Site.Params.schema.address2 }}
+        <br>
+        <small>{{ .Site.Params.schema.address2 }}</small>
+        {{ else }}
+        <span></span>
+        {{ end }}
+        <br>
+        <small>{{ .Site.Params.schema.city }}, {{ .Site.Params.schema.region }} </small>
+        <br>
+        <small>{{ .Site.Params.schema.postalcode }}</small>
+        <br>
+        <small>{{ .Site.Params.schema.country }}</small>
+
+      </address>    
+
+    </div>
+
+  </div>
+</div>
+</section>

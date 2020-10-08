@@ -1,0 +1,107 @@
+<!-- 3 Box Template BEGIN -->
+<section class="section 3box">
+  <div class="container">
+<div class="columns">
+
+    <div class="column is-4">
+      <div class="card">
+
+            <img src="{{ .Site.BaseURL }}img/box-1_478.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-srcset="
+            {{ .Site.BaseURL }}img/box-1_840.jpg 840w,    
+            {{ .Site.BaseURL }}img/box-1_478.jpg 478w,
+            {{ .Site.BaseURL }}img/box-1_320.jpg 320w"
+            data-sizes="auto"
+            class="lazyload card-image"
+            alt="{{ .Params.box1_alt }}"
+            />
+
+            <div class="card-content has-text-centered">
+
+              <h3 class="is-size-3 mb-3">{{ .Params.box1 }}</h3>
+
+              <div class="has-text-centered">
+              {{ if eq .Site.Language.Lang "fr" }}
+      
+              <a href="{{ .Site.BaseURL }}services#service1" class="button is-primary">{{ i18n "learnmore" }}</a>
+            
+              {{ else }}
+            
+              <a href="{{ .Site.BaseURL }}en/services#service1" class="button is-primary">{{ i18n "learnmore" }}</a>
+            
+              {{ end }}
+            </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="column is-4">
+      <div class="card">
+
+            <img src="{{ .Site.BaseURL }}img/box-2_478.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-srcset="
+            {{ .Site.BaseURL }}img/box-2_840.jpg 840w,    
+            {{ .Site.BaseURL }}img/box-2_478.jpg 478w,
+            {{ .Site.BaseURL }}img/box-2_320.jpg 320w"
+            data-sizes="auto"
+            class="lazyload card-image"
+            alt="{{ .Params.box2_alt }}"
+            />
+
+            <div class="card-content">
+
+              <h5 class="is-size-3 has-text-centered mb-3">{{ .Params.box2 }}</h5>
+
+              <div class="has-text-centered">
+              {{ if eq .Site.Language.Lang "fr" }}
+      
+              <a href="{{ .Site.BaseURL }}services#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
+            
+              {{ else }}
+            
+              <a href="{{ .Site.BaseURL }}en/services#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
+            
+              {{ end }}
+            </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="column is-4">
+      <div class="card">
+
+            <img src="{{ .Site.BaseURL }}img/box-3_478.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-srcset="
+            {{ .Site.BaseURL }}img/box-3_840.jpg 840w,    
+            {{ .Site.BaseURL }}img/box-3_478.jpg 478w,
+            {{ .Site.BaseURL }}img/box-3_320.jpg 320w"
+            data-sizes="auto"
+            class="lazyload card-image"
+            alt="{{ .Params.box3_alt }}"
+            />
+
+            <div class="card-content">
+
+              <h5 class="is-size-3 has-text-centered mb-3">{{ .Params.box3 }}</h5>
+              <div class="has-text-centered">
+              {{ if eq .Site.Language.Lang "fr" }}
+      
+              <a href="{{ .Site.BaseURL }}services#service3" class="button is-primary">{{ i18n "learnmore" }}</a>
+            
+              {{ else }}
+            
+              <a href="{{ .Site.BaseURL }}en/services#service3" class="button is-primary">{{ i18n "learnmore" }}</a>
+            
+              {{ end }}
+              </div>
+            </div>
+          </div>
+    </div>
+
+</div>
+</div>
+</section>
+<!-- 3 Box Template END -->

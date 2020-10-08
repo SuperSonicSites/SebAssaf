@@ -1,0 +1,89 @@
+<!-- Two Testimonial Version 1 BEGIN -->
+<section class="testimonials">
+
+    <div class="py-5"></div>
+
+
+    <div class="container">
+
+        <div class="d-flex flex-column justify-content-center align-items-center my-5">
+
+            <h2 class="text-center display-3 font-weight-bold text-uppercase text-white">
+    
+                {{ i18n "testimonials" }}
+        
+            </h2>
+
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide my-5 py-5" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+
+                <li data-target="#carouselExampleIndicators" class="bg-dark my-5 py-1" data-slide-to="0" class="active"></li>
+
+                <li data-target="#carouselExampleIndicators" class="bg-dark my-5 py-1" data-slide-to="1"></li>
+
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active text-center py-8">
+
+                    <img src="{{ .Site.BaseURL }}img/testimonial-1.jpg"
+                        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-srcset="{{ .Site.BaseURL }}img/testimonial-1.jpg 1x, {{ .Site.BaseURL }}img/testimonial-1@2x.jpg 2x"
+                        alt="{{ .Params.testimonial1__alt }}"
+                        class="lazyload img-fluid img-thumbnail testimonial-img m-auto mb-2"      
+                        />        
+
+                    
+                    <h3 class="py-2">{{.Params.testimonial1}}</h3>
+
+                    <p class="text-center w-75 m-auto">{{.Params.testimonial1__desc}}</p>
+
+                </div>
+
+                <div class="carousel-item text-center py-8">
+
+                    <img src="img/testimonial-2.jpg"
+                        srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-srcset="{{ .Site.BaseURL }}img/testimonial-2.jpg 1x, {{ .Site.BaseURL }}img/testimonial-2@2x.jpg 2x"
+                        alt="{{ .Params.testimonial2__alt }}"
+                        class="lazyload img-fluid img-thumbnail testimonial-img m-auto mb-2"      
+                        />   
+
+                    <h3 class="py-2">{{.Params.testimonial2}}</h3>
+    
+                    <p class="text-center w-75 m-auto">{{.Params.testimonial2__desc}}</p>
+  
+                </div>
+  
+            </div>
+    
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    
+                <span class="sr-only">Previous</span>
+    
+            </a>
+    
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    
+                <span class="sr-only">Next</span>
+    
+            </a>
+    
+        </div>
+  
+    </div>
+  
+    <div class="py-3"></div>
+
+</div>
+
+</section>
+<!-- Two Testimonial Version 1 END -->

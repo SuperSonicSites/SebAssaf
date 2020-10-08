@@ -1,0 +1,117 @@
+<!-- Solopreneur Template 1 -->
+<section class="container pt-5 mt-5">
+
+    <div class="row gx-5"> 
+
+        <div class="col-lg-5 col-md-12 order-2 d-flex flex-column justify-content-end">
+            
+            <figure>
+            
+                <img src="{{ .Site.BaseURL }}img/about-1_840.jpg"
+            
+                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-srcset="
+                {{ .Site.BaseURL }}img/about-1_840.jpg 840w,    
+                {{ .Site.BaseURL }}img/about-1_478.jpg 478w,
+                {{ .Site.BaseURL }}img/about-1_320.jpg 320w"
+                data-sizes="auto"
+                class="lazyload w-100"
+                alt="{{ .Params.team_member1_alt }}"
+            />
+            <figcaption class="text-center text-uppercase">{{ .Params.team_member1 }}</figcaption>
+        </figure>
+
+        </div>
+
+        <div class="col-lg-7 col-md-12 order-1">
+
+            <h2 class="display-4 text-uppercase">{{ .Params.heading }}</h2>
+
+            <div class="divider my-5 w-25">
+    
+                <div class="container"></div>
+        
+            </div>
+
+            <p>{{ .Params.team_member1__desc  | safeHTML }}</p>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+<section class="about__section container-fluid">
+    
+    <div class="container py-5">
+
+        <div class="d-flex flex-column justify-content-center align-items-center my-5">
+
+        <h2 class="text-center display-4 text-uppercase pb-5">
+
+            {{ .Params.heading2 }}
+    
+        </h2>
+
+
+        <div class="row g-5">
+
+            <div class="col-lg-4 col-md-12">
+
+                <div class="card border-light mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
+
+                    <div class="card-body p-4 shadow-lg">
+
+                      <h5 class="card-title text-dark">{{ .Params.features__heading1 }}</h5>
+
+                      <p class="card-text">{{ .Params.features__desc1 }}</p>
+
+                    </div>
+
+                  </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+
+                <div class="card border-light mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+
+                    <div class="card-body p-4 shadow-lg">
+
+                        <h5 class="card-title text-dark">{{ .Params.features__heading2 }}</h5>
+
+                        <p class="card-text">{{ .Params.features__desc2 }}</p>
+
+                    </div>
+
+                  </div>
+
+
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+
+                <div class="card border-light mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1000">
+
+                    <div class="card-body p-4 shadow-lg">
+
+                        <h5 class="card-title text-dark">{{ .Params.features__heading3 }}</h5>
+
+                        <p class="card-text">{{ .Params.features__desc3 }}</p>
+
+                    </div>
+
+                  </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</section>
+<!-- Solopreneur Template 1 -->

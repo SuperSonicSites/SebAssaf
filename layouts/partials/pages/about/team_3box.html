@@ -1,0 +1,79 @@
+<section class="section">
+
+    <div class="container">
+    
+    <h2 class="is-size-2 has-text-centered-touch">{{ .Params.heading }}</h2>
+    
+    <p class="has-text-centered-touch">{{ .Params.about__desc  | safeHTML }}</p>
+    
+    <div class="columns my-4">
+    
+        <div class="column is-4">
+            <div class="card">
+        <figure>    
+            <img src="{{ .Site.BaseURL }}img/about-1_840.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-srcset="
+            {{ .Site.BaseURL }}img/about-1_840.jpg 840w,    
+            {{ .Site.BaseURL }}img/about-1_478.jpg 478w,
+            {{ .Site.BaseURL }}img/about-1_320.jpg 320w"
+            data-sizes="auto"
+            class="lazyload card-image"
+            alt="{{ .Params.about1_alt }}"
+            data-aos="fade-up" data-aos-duration="500"
+            />
+            <figcaption class="box has-background-primary has-text-white is-radiusless has-text-centered text-uppercase is-size-5">{{ .Params.team_member1 }}</figcaption>
+        </figure>
+    
+            <p class="card-content">{{ .Params.team_member1__desc  | safeHTML }}</p>
+
+        </div>
+
+        </div>
+
+        <div class="column is-4">
+            <div class="card">
+            <figure>    
+                <img src="{{ .Site.BaseURL }}img/about-2_840.jpg"
+                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-srcset="
+                {{ .Site.BaseURL }}img/about-2_840.jpg 840w,    
+                {{ .Site.BaseURL }}img/about-2_478.jpg 478w,
+                {{ .Site.BaseURL }}img/about-2_320.jpg 320w"
+                data-sizes="auto"
+                class="lazyload card-image"
+                alt="{{ .Params.about2_alt }}"
+                data-aos="fade-up" data-aos-duration="500"
+                />
+                <figcaption class="box has-background-primary has-text-white is-radiusless has-text-centered text-uppercase is-size-5">{{ .Params.team_member2 }}</figcaption>
+            </figure>
+        
+                <p class="card-content">{{ .Params.team_member2__desc  | safeHTML }}</p>
+        </div>
+            </div>
+    
+            <div class="column is-4">
+                <div class="card">
+                <figure>    
+                    <img src="{{ .Site.BaseURL }}img/about-3_840.jpg"
+                    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="
+                    {{ .Site.BaseURL }}img/about-3_840.jpg 840w,    
+                    {{ .Site.BaseURL }}img/about-3_478.jpg 478w,
+                    {{ .Site.BaseURL }}img/about-3_320.jpg 320w"
+                    data-sizes="auto"
+                    class="lazyload card-image"
+                    alt="{{ .Params.about3_alt }}"
+                    data-aos="fade-up" data-aos-duration="500"
+                    />
+                    <figcaption class="box has-background-primary has-text-white is-radiusless has-text-centered text-uppercase is-size-5">{{ .Params.team_member3 }}</figcaption>
+                </figure>
+            
+                    <p class="card-content">{{ .Params.team_member3__desc  | safeHTML }}</p>
+
+                    </div>
+                </div>
+    
+</div>
+</div>
+</section>

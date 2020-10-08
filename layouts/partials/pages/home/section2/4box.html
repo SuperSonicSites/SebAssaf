@@ -1,0 +1,147 @@
+<!-- 4 Box Template BEGIN -->
+<div class="">
+
+    <div class="">
+
+        <div class="">
+
+            <img src="{{ .Site.BaseURL }}img/box-1_478.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-srcset="
+            {{ .Site.BaseURL }}img/box-1_840.jpg 840w,    
+            {{ .Site.BaseURL }}img/box-1_478.jpg 478w,
+            {{ .Site.BaseURL }}img/box-1_320.jpg 320w"
+            data-sizes="auto"
+            class="lazyload"
+            alt="{{ .Params.box1_alt }}"
+            />
+
+            <div class="">
+
+              <h3 class="">{{ .Params.box1 }}</h3>
+
+              {{ if eq .Site.Language.Lang "fr" }}
+      
+              <a href="{{ .Site.BaseURL }}services#service1" class="">{{ i18n "learnmore" }}</a>
+            
+              {{ else }}
+            
+              <a href="{{ .Site.BaseURL }}en/services#service1" class="">{{ i18n "learnmore" }}</a>
+            
+              {{ end }}
+
+            </div>
+
+          </div>
+
+    </div>
+
+    <div class="">
+
+        <div class="">
+
+            <img src="{{ .Site.BaseURL }}img/box-2_478.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-srcset="
+            {{ .Site.BaseURL }}img/box-2_840.jpg 840w,    
+            {{ .Site.BaseURL }}img/box-2_478.jpg 478w,
+            {{ .Site.BaseURL }}img/box-2_320.jpg 320w"
+            data-sizes="auto"
+            class="lazyload"
+            alt="{{ .Params.box2_alt }}"
+            />
+
+            <div class="">
+
+              <h5 class="">{{ .Params.box2 }}</h5>
+
+              {{ if eq .Site.Language.Lang "fr" }}
+      
+              <a href="{{ .Site.BaseURL }}services#service2" class="">{{ i18n "learnmore" }}</a>
+            
+              {{ else }}
+            
+              <a href="{{ .Site.BaseURL }}en/services#service2" class="">{{ i18n "learnmore" }}</a>
+            
+              {{ end }}
+
+            </div>
+            
+          </div>
+
+
+    </div>
+
+    <div class="">
+
+        <div class="">
+
+            <img src="{{ .Site.BaseURL }}img/box-3_478.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-srcset="
+            {{ .Site.BaseURL }}img/box-3_840.jpg 840w,    
+            {{ .Site.BaseURL }}img/box-3_478.jpg 478w,
+            {{ .Site.BaseURL }}img/box-3_320.jpg 320w"
+            data-sizes="auto"
+            class="lazyload"
+            alt="{{ .Params.box3_alt }}"
+            />
+
+            <div class="">
+
+              <h5 class="">{{ .Params.box3 }}</h5>
+
+              {{ if eq .Site.Language.Lang "fr" }}
+      
+              <a href="{{ .Site.BaseURL }}services#service3" class="">{{ i18n "learnmore" }}</a>
+            
+              {{ else }}
+            
+              <a href="{{ .Site.BaseURL }}en/services#service3" class="">{{ i18n "learnmore" }}</a>
+            
+              {{ end }}
+
+            </div>
+            
+          </div>
+
+
+    </div>
+
+    <div class="">
+
+        <div class="">
+
+            <img src="{{ .Site.BaseURL }}img/box-4_478.jpg"
+            srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            data-srcset="
+            {{ .Site.BaseURL }}img/box-4_840.jpg 840w,    
+            {{ .Site.BaseURL }}img/box-4_478.jpg 478w,
+            {{ .Site.BaseURL }}img/box-4_320.jpg 320w"
+            data-sizes="auto"
+            class="lazyload"
+            alt="{{ .Params.box4_alt }}"
+            />
+
+            <div class="">
+
+              <h5 class="">{{ .Params.box4 }}</h5>
+
+                {{ if eq .Site.Language.Lang "fr" }}
+      
+                <a href="{{ .Site.BaseURL }}services#service4" class="">{{ i18n "learnmore" }}</a>
+              
+                {{ else }}
+              
+                <a href="{{ .Site.BaseURL }}en/services#service4" class="">{{ i18n "learnmore" }}</a>
+              
+                {{ end }}
+
+            </div>
+            
+          </div>
+
+    </div>
+
+</div>
+<!-- 4 Box Template END -->

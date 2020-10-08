@@ -1,0 +1,132 @@
+<section class="section">
+
+    <div class="container py-5 my-5">
+
+    <!-- Service 1 -->
+
+    <h2 class="title is-size-2 text-uppercase has-text-centered-touch">{{.Params.service1 | safeHTML}}</h2>
+
+    <div class="columns my-5 py-5">
+
+        <div class="column is-5">
+
+            <img src="{{ .Site.BaseURL }}img/service-1_840.jpg"
+            
+                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-srcset="
+                {{ .Site.BaseURL }}img/service-1_840.jpg 840w,    
+                {{ .Site.BaseURL }}img/service-1_478.jpg 478w,
+                {{ .Site.BaseURL }}img/service-1_320.jpg 320w"
+                data-sizes="auto"
+                class="lazyload shadow"
+                alt="{{ .Params.team_member1_alt }}"
+            />
+        </div>
+
+        <div class="column is-7 service-content has-text-centered-touch">
+
+            <p class="mb-3">{{.Params.service1_desc | safeHTML }}</p>
+
+            <div class="">
+            {{ if eq .Site.Language.Lang "fr" }}
+              
+            <a href="{{ .Site.BaseURL }}{{ .Params.service1_cta_link}}" class="button is-primary">{{ .Params.service1_cta }}</a>
+                    
+            {{ else }}
+                    
+            <a href="{{ .Site.BaseURL }}en{{ .Params.service1_cta_link}}" class="button is-primary">{{ .Params.service1_cta }}</a>
+                    
+            {{ end }}
+        </div>
+
+        </div>
+
+    </div>
+
+    <!-- Service 2 -->
+
+    <h2 class="title is-size-2 text-uppercase has-text-centered-touch">{{.Params.service2 | safeHTML}}</h2>
+
+    <div class="columns my-5 py-5">
+
+        <div class="column is-5">
+
+            <img src="{{ .Site.BaseURL }}img/service-2_840.jpg"
+            
+                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-srcset="
+                {{ .Site.BaseURL }}img/service-2_840.jpg 840w,    
+                {{ .Site.BaseURL }}img/service-2_478.jpg 478w,
+                {{ .Site.BaseURL }}img/service-2_320.jpg 320w"
+                data-sizes="auto"
+                class="lazyload shadow"
+                alt="{{ .Params.team_member2_alt }}"
+            />
+        </div>
+
+        
+        <div class="column is-7 service-content has-text-centered-touch">
+
+            <p class="mb-3">{{.Params.service2_desc | safeHTML }}</p>
+
+            <div class="">
+            {{ if eq .Site.Language.Lang "fr" }}
+              
+            <a href="{{ .Site.BaseURL }}{{ .Params.service2_cta_link}}" class="button is-primary">{{ .Params.service2_cta }}</a>
+                    
+            {{ else }}
+                    
+            <a href="{{ .Site.BaseURL }}en{{ .Params.service2_cta_link}}" class="button is-primary">{{ .Params.service2_cta }}</a>
+                    
+            {{ end }}
+        </div>
+
+        </div>
+
+    </div>
+
+        <!-- Service 3 -->
+
+        <h2 class="title is-size-2 text-uppercase has-text-centered-touch">{{.Params.service3 | safeHTML}}</h2>
+
+        <div class="columns my-5 py-5">
+        
+            <div class="column is-5">
+    
+                <img src="{{ .Site.BaseURL }}img/service-3_840.jpg"
+                
+                    srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    data-srcset="
+                    {{ .Site.BaseURL }}img/service-3_840.jpg 840w,    
+                    {{ .Site.BaseURL }}img/service-3_478.jpg 478w,
+                    {{ .Site.BaseURL }}img/service-3_320.jpg 320w"
+                    data-sizes="auto"
+                    class="lazyload shadow"
+                    alt="{{ .Params.team_member3_alt }}"
+                />
+            </div>
+            <div class="column is-7 service-content has-text-centered-touch">
+    
+                <p class="mb-3">{{.Params.service3_desc | safeHTML }}</p>
+    
+                <div class="">
+                {{ if eq .Site.Language.Lang "fr" }}
+                  
+                <a href="{{ .Site.BaseURL }}{{ .Params.service3_cta_link}}" class="button is-primary">{{ .Params.service3_cta }}</a>
+                        
+                {{ else }}
+                        
+                <a href="{{ .Site.BaseURL }}en{{ .Params.service3_cta_link}}" class="button is-primary">{{ .Params.service3_cta }}</a>
+                        
+                {{ end }}
+            </div>
+    
+            </div>
+        </div>
+
+
+    
+
+</div>
+
+</section>

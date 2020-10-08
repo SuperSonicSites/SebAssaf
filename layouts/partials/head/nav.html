@@ -1,0 +1,104 @@
+<nav class="desktop navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="container">
+  <div class="navbar-brand p-2">
+    <a class="" href="{{ .Site.BaseURL | relLangURL }}">
+      <img src="{{ $.Site.BaseURL }}img/logo.png" srcset="{{ $.Site.BaseURL }}img/logo.png 1x, {{ $.Site.BaseURL }}img/logo@2x.png 2x" alt="{{ .Site.Params.businessname }}" width="125px">
+    </a>
+
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+
+    <div class="navbar-end">
+      {{ range .Site.Menus.main -}}
+          
+      <a class="navbar-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+      
+      {{ end }}
+      {{ if .Site.Params.showLanguageSelector }}
+      <div class="navbar-item">
+          <div class="buttons">
+          
+            {{ if .IsTranslated }}
+          
+            {{ range .Translations }}
+          
+            {{ if eq .Site.Language.Lang "en" }}
+          
+            <a class="button is-primary" title="English" href="{{ .RelPermalink }}">EN</a>
+          
+            {{ else }}
+         
+            <a class="button is-primary" title="French" href="{{ .RelPermalink }}">FR</a>
+           
+            {{ end }}
+          
+                {{ end }}
+          
+                {{ else }}
+           
+                {{ if eq .Site.Language.Lang "fr" }}
+          
+                <a class="button is-primary" title="English" href="/en">EN</a>
+            
+                {{ else }}
+            
+                <a class="button is-primary" title="French" href="/">EN</a>
+            
+                {{ end }}
+          
+                {{ end }}
+          
+              </div>
+              {{ else }}
+              <span></span>
+              {{ end }}
+            </div>
+
+    </div>
+  </div>
+</div>
+</nav>
+<!-- Mobile Menu -->
+<div class="navbar is-fixed-top menu-wrap mobile">
+  <div class="navbar-brand p-2">
+    <a class="" href="{{ .Site.BaseURL | relLangURL }}">
+      <img src="{{ $.Site.BaseURL }}img/logo.png" srcset="{{ $.Site.BaseURL }}img/logo.png 1x, {{ $.Site.BaseURL }}img/logo@2x.png 2x" alt="{{ .Site.Params.businessname }}" width="125px">
+    </a>
+
+  </div>
+  <input type="checkbox" class="toggler">
+
+  <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+
+          {{ range .Site.Menus.main -}}
+
+          <li><a class="nav-item nav-link uppercase" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+
+          {{ end }}
+          {{ if .IsTranslated }}
+            {{ range .Translations }}
+              {{ if eq .Site.Language.Lang "en" }}
+            <li><a class="nav-item nav-link" title="English" href="{{ .RelPermalink }}">EN</a></li>
+              {{ else }}
+            <li><a class="nav-item nav-link" title="French" href="{{ .RelPermalink }}">FR</a></li>
+              {{ end }}
+            {{ end }}
+          {{ else }}
+            {{ if eq .Site.Language.Lang "fr" }}
+            <li><a class="nav-item nav-link" title="English" href="/en">EN</a></li>
+            {{ else }}
+            <li><a class="nav-item nav-link" title="French" href="/">FR</a></li>
+            {{ end }}
+          {{ end }}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>

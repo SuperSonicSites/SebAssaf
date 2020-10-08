@@ -1,0 +1,81 @@
+<section class="mb-6">
+
+  <div class="container">
+
+    <h2 class="is-size-2 mb-3 has-text-centered-touch">{{ i18n "faq" }}</h2>
+
+      <ul class="collapse-list">
+        {{ if .Params.question1 }}
+        <li>
+            <input class="collapse-open" type="checkbox" id="collapse-1">
+            <label class="collapse-btn" for="collapse-1">{{.Params.question1 | safeHTML}}</label>
+            <div class="collapse-painel">
+                <div class="collapse-inner">
+                    <ol>
+                        <li>{{.Params.answer1 | safeHTML}}</li>
+                    </ol>
+                </div>
+            </div>
+        </li>
+        {{ else }}
+        <span></span>
+        {{ end }}
+        <li>
+          {{ if .Params.question2 }}
+            <input class="collapse-open" type="checkbox" id="collapse-2">
+            <label class="collapse-btn" for="collapse-2">{{.Params.question2 | safeHTML}}</label>
+            <div class="collapse-painel">
+                <div class="collapse-inner">
+
+                    <ol>
+
+                        <li>{{.Params.answer2 | safeHTML}}</li>
+
+                    </ol>
+
+                </div>
+
+            </div>
+
+        </li>
+
+        {{ else }}
+
+        <span></span>
+
+        {{ end }}
+
+        <li>
+
+            {{ if .Params.question3 }}
+
+          <input class="collapse-open" type="checkbox" id="collapse-3">
+
+            <label class="collapse-btn" for="collapse-3">{{.Params.question3 | safeHTML}}</label>
+
+            <div class="collapse-painel">
+
+                <div class="collapse-inner">
+
+                    <ol>
+
+                        <li>{{.Params.answer2 | safeHTML}}</li>
+
+                    </ol>
+
+                </div>
+
+            </div>
+
+        </li>
+        {{ else }}
+
+        <span></span>
+        {{ end }}
+
+    </ul>
+
+    </div>
+
+</section>
+

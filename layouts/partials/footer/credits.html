@@ -1,0 +1,36 @@
+<div class="has-background-dark py-4">
+
+  <div class="container level">
+        
+    <div class="level-left">
+
+      <div class="level-item has-text-white">
+    
+      <p>Copyright © {{ dateFormat "2006" now }} - 
+        
+        {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/privacy-policy" class="has-text-primary">{{ i18n "privacypolicy" }}
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/privacy-policy" class="has-text-primary">{{ i18n "privacypolicy" }}</a>
+            
+              {{ end }}
+              
+            </a> 
+        
+          </p>
+        
+        </div>   
+      </div>
+  
+      <div class="level-right has-text-centered-touch">
+          
+          <p class="has-text-white">{{ i18n "credit" }} <a href="https://www.supersonicsites.com" class="has-text-primary">Supersonic Sites</a></p>
+        
+        </div>                   
+      
+      </div>
+
+  </div>

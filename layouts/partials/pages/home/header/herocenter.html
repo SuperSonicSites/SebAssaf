@@ -1,0 +1,32 @@
+<!-- HERO HEADER CENTER BEGIN -->
+<header class="hero">
+
+    <div class="min-vh-100 d-flex flex-column align-items-center justify-content-center">
+    
+        <div class="hero__box container text-center">
+
+             
+            <div class="" data-aos="fade-in" data-aos-duration="800">
+                
+                    <h2 class="text-uppercase display-5 mt-3">{{ .Params.heading0 }}</h3>
+        
+                        <h1 class="text-uppercase display-3 font-weight-bold mt-3">{{ .Params.heading1  }}</h1>
+               
+                        <h2 class="mb-4 display-5 text-uppercase mt-3">{{ .Params.heading2 }}</h2>
+                
+                    </div>
+                    {{ if eq .Site.Language.Lang "fr" }}
+              
+                    <a href="{{ .Site.BaseURL }}services" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="800">{{ .Site.Params.cta_fr }}</a>
+                            
+                    {{ else }}
+                            
+                    <a href="{{ .Site.BaseURL }}en/services" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="800">{{ .Site.Params.cta_en }}</a>
+                            
+                    {{ end }}
+        </div>
+    
+    </div>
+    
+    </header>
+    <!-- HERO HEADER CENTER END -->
