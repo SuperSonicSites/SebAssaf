@@ -2,8 +2,8 @@
 title: Politique de Confidentialité
 bannerh1: "Politique de Confidentialité"
 layout: privacy-policy
-companyname: "Company Name"
-companyemail: "Company Email"
+companyname: "SebAssaf.com"
+companyemail: "sebassaf@gmail.com"
 ---
 ## Politique de Confidentialité
 

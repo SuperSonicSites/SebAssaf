@@ -3,8 +3,8 @@ title: Privacy Policy
 description: "The privacy policy"
 layout: privacy-policy
 bannerh1: "Privacy Policy"
-companyname: "Company Name" #Company Name Here
-companyemail: "Company Email" #Company Name Here
+companyname: "SebAssaf.com" #Company Name Here
+companyemail: "sebassaf@gmail.com" #Company Name Here
 ---
 ## PRIVACY POLICY
 
@@ -62,8 +62,9 @@ Examples of cookies we use:
 - Preferably cookies. We use cookies preferably to remember your preferences and various parameters.
 - Security cookies. We use security cookies for security purposes.
 
-### USE OF DATA
 -----------------------
+### USE OF DATA
+
 
 {{< param companyname >}} uses the data collected for different purposes:
 
@@ -76,8 +77,8 @@ Examples of cookies we use:
 - Detect, prevent and resolve technical problems
 - To provide you with news, special offers and general information about other goods, services and events that we offer and similar to those that you have already purchased or on which you have requested information, unless you have chosen not to receive this information.
 
+-----------------------
 ### DATA TRANSFER
---------------------
 
 Your information, including your personal data, may be transferred to and stored on computers located outside of your state, province, country or other government jurisdiction where data protection laws may differ from those in your jurisdiction.
 
@@ -87,10 +88,10 @@ Your consent to this privacy policy, followed by your submission of such informa
 
 {{< param companyname >}} will take all measures reasonably necessary to guarantee the secure processing of your data, in accordance with this privacy policy, and no transfer of your personal data will be made to an organization or a country, unless adequate controls are in place, including security of your data and other personal information.
 
-### DISCLOSURE OF DATA
 -----------------------
+### DISCLOSURE OF DATA
 
-### LEGAL REQUIREMENTS
+#### LEGAL REQUIREMENTS
 
 {{< param companyname >}} may disclose your personal data in good faith believing that such action is necessary to:
 
@@ -100,18 +101,19 @@ Your consent to this privacy policy, followed by your submission of such informa
 - To protect the personal safety of service users or the public
 - Protect against legal liability
 
+-----------------------
 ### DATA SECURITY
---------------------
 
 The security of your data is important to us, but remember that no method of transmission over the Internet or electronic storage is 100% secure. We strive to use commercially acceptable means to protect your personal data, but we cannot guarantee its absolute security.
 
+-----------------------
 ### SERVICE PROVIDERS
-----------------------------
 
 We may use third-party companies and individuals to facilitate our service ("service providers"), provide the service on our behalf, provide service related services or help us analyze the use of our service.
 
 These third parties only have access to your personal data to perform these tasks on our behalf and are obliged not to disclose it or use it for other purposes.
 
+-----------------------
 ### ANALYTIC
 
 We may use third-party service providers to monitor and analyze the use of our service.
@@ -124,20 +126,20 @@ We may use third-party service providers to monitor and analyze the use of our s
 
 - Facebook - Facebook's remarketing service is provided by Facebook Inc. To learn more about Facebook interest-based advertising, visit the following page: https://www.facebook.com/help/164968693837950 To opt out of Facebook’s interest-based ads, follow the instructions provided by Facebook: https://www.facebook.com/help/568137493302217 Facebook adheres to the principles of self-regulatory online behavioral advertising established by Digital Alliance. You can also unsubscribe from Facebook and other participating companies through the Digital Advertising Alliance in the United States http://www.aboutads.info/choices/, the Digital Advertising Alliance in Canada http: // youradchoices. ca / or European Alliance for Interactive Digital Advertising in Europe http://www.youronlinechoices.eu/, or unsubscribe using the settings on your mobile device. For more information on Facebook's privacy practices, please see Facebook's privacy policy: https://www.facebook.com/privacy/explanation
 
+-----------------------
 ### LINKS TO OTHER SITES
--------------------------
 
 Our service may contain links to other sites that we do not operate. If you click on a third party link, you will be directed to that third party's site. We strongly recommend that you consult the privacy policy of each site you visit.
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of third party sites or services.
 
+-----------------------
 ### PRIVACY OF CHILDREN
-----------------------
 
 We do not knowingly collect personally identifiable information from persons under the age of 18. If you are a parent or guardian and you know that your child has provided us with personal data, please contact us. If we realize that we have collected personal data from children without verifying parental consent, we will take steps to delete that information from our servers.
 
+-----------------------
 ### CHANGES TO THIS PRIVACY POLICY
-------------------------------------------------
 
 We may update our privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page.
 
@@ -145,8 +147,8 @@ We will notify you by e-mail and / or a visible notice on our service before the
 
 We recommend that you periodically review this privacy policy to keep yourself informed of any changes. Changes to this privacy policy take effect when posted on this page.
 
+-----------------------
 ### CONTACT US
---------------
 
 If you have any questions about this privacy policy, please contact us:
 

@@ -7,16 +7,74 @@
 
 <!-- Section 2 Top -->
 
-{{- partial "pages/home/section2/section2toptxt.html" . }}
+<section id="about" class="section is-medium">
+    <div class="container">
+        <div class="columns is-8">
+            <div class="column is6 is-flex is-justified-center">
 
-<!-- {{- partial "pages/home/section2/section2topimg.html" . }} -->
+                <img src="img/about-image.jpg" class="about__img shadow" alt=""  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
 
-<!-- Section 2 Box Widgets -->
-{{- partial "pages/home/section2/3box.html" . }}
-<!-- {{- partial "pages/home/section2/3box.html" . }} -->
+            </div>
+            <div class="column is-6 is-flex is-row is-aligned-center">
+                <div class="">
+                    <h2 class="is-size-2 is-bold">
+                        About Me
+                    </h2>
+                    <p class="is-size-5 py-3 block">
+                        {{ .Params.about_1 }}
+                    </p>
+                    <h3 class="is-size-4 is-bold" >{{ .Params.about_2_heading }}</h3>
+                    <p>{{ .Params.about_2_text }}</p><br>
+                    <h3 class="is-size-4  is-bold">{{ .Params.about_3_heading }}</h3>
+                    <p>{{ .Params.about_3_text }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!-- Section 3 More Content -->
-{{- partial "pages/home/section3/section3.html" . }}
+<section id="marketing" class="section is-large has-background-primary">
+    <div class="container has-text-white">
+        <div class="columns is-8">
+            <div class="column">
+                <h2 class="is-size-2">{{ .Params.Service1 }}</h2>
+                <p class="block py-1">{{.Params.service1_text | safeHTML}}</p>
+                <a href="#" class="button is-secondary mt-3">Book a call</a>
+            </div>
+            <div class="column">
+                <img src="img/marketing.jpg" class="shadow lazyload" alt="" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
+            </div>
+        </div>
+    </div>
+</section>
 
-{{- partial "elements/businessquote.html" . }}
+<section id="health" class="section is-medium">
+    <div class="container">
+        <div class="columns is-8">
+            <div class="column">
+                <h2 class="is-size-2">{{ .Params.Service2 }}</h2>
+                <p class="block py-1">{{.Params.service2_text | safeHTML}}</p>
+                <a href="#" class="button is-primary mt-3">Book a call</a>
+            </div>
+            <div class="column">
+                <img src="img/health.jpg" class="shadow lazyload" alt="" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="consulting" class="section is-large has-background-primary">
+    <div class="container has-text-white">
+        <div class="columns is-8">
+            <div class="column">
+                <img src="img/consulting.jpg" class="shadow lazyload" alt="" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
+            </div>
+            <div class="column">
+                <h2 class="is-size-2">{{ .Params.Service3 }}</h2>
+                <p class="block py-1">{{.Params.service3_text | safeHTML}}</p>
+                <a href="#" class="button is-secondary mt-3">Book a call</a>
+            </div>
+        </div>
+    </div>
+</section>
 {{ end }}

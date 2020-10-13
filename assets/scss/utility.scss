@@ -7,6 +7,9 @@
         max-width: 320px;
     }
 }
+.container {
+    max-width: 1140px;
+}
 .shadow {
     box-shadow: 0 1rem 2rem rgba(0,0,0,.175);
 }
@@ -22,6 +25,39 @@
         fill: $primary;
     }
 }
+.is-flex {
+    display: flex;
+}
+.is-aligned-center {
+    align-items: center;
+}
+.is-aligned-end {
+    align-items: flex-end;
+}
+.is-justified-center {
+    justify-content: center;
+}
+.is-justified-start {
+    justify-content: flex-start;
+}
+.is-justified-end {
+    justify-content: flex-end;
+}
+.is-row {
+    flex-direction: row !important;
+}
+.is-column {
+    flex-direction: column !important;
+}
+.is-absolute {
+    position: absolute;
+}
+.is-relative {
+    position: relative;
+}
+.background-is-brand {
+    background-color: $primary;
+}
 .fullwidth {
     min-width: 100% !important;
 }
@@ -36,6 +72,9 @@
 .button:hover {
     transition: all .3s;
     filter: brightness(120%);
+}
+.is-bold {
+    font-weight: 700;
 }
 /*
 footer {

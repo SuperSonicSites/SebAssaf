@@ -1,17 +1,17 @@
 baseURL: /
-DefaultContentLanguage: fr
+DefaultContentLanguage: en
 
 params:
-    businessname: ''
+    businessname: 'SebAssaf'
     showLanguageSelector: true #true if bilingual site - false if unilingua
     font: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'
-    usebasin: '' #endpoint for forms
+    usebasin: 'https://usebasin.com/f/d467e1937a2b' #endpoint for forms
     googlemap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.1822497582402!2d-74.04084658423461!3d45.40566434536808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9363486fd137b%3A0x4a15fd8b3925e859!2sThe%20UPS%20Store!5e0!3m2!1sen!2sca!4v1595857348466!5m2!1sen!2sca' # Map code of Google
     cta:
         footer_heading_fr: 'French Footer Heading'
         footer_heading_en: 'English Footer Heading'
         cta_fr: 'French CTA'
-        cta_en: 'English CTA'
+        cta_en: 'Book a Call'
         businnessquote_en: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
         businnessquote_fr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
     hours:
@@ -22,69 +22,68 @@ params:
         hour2fr: 'Sam - Sur Appel' #Footer Hours Line #1 in French / Leave empty if it does not apply
         hour3fr: 'Dim - Sur Appel' #Footer Hours Line #1 in French / Leave empty if it does not apply
     social:
-        facebook: 'https://www.facebook.com'
-        twitter: 'https://www.twitter.com'
-        pinterest: 'https://www.pinterest.com'
-        instagram: 'https://www.instagram.com'
+        facebook: ''
+        twitter: ''
+        pinterest: ''
+        instagram: ''
     schema:
-        type: LocalBusiness
+        type: ProfessionalService
         reviewcount: ''
         reviewvalue: ''
-        reservation: ''
-        openinghour: ''
+        reservation: 'false'
+        openinghour: 'Tu-Fr 13:00-16:00'
         logo: img/logo.png
         image: img/og.png
-        address: 123 Supersonic Street
-        address2: ''
-        city: Worldwide
+        address: 8 rue principale sud,
+        address2: '#103'
+        city: Delson
         region: QC
         country: Canada
-        postalcode: H1H1H1
-        phone: +1-123-456-7890
-        email: dev@supersonicsites.com
+        postalcode: J5B 0A2
+        phone: +1-514-730-0028
+        email: sebassaf@gmail.com
 
 languages:
   fr:
     languageCode: fr
-    title: Site Title
+    title: SebAssaf.com
     description: Site Tagline
     contentDir: content/fr
     menu:
       main:
-        - name: Accueil
-          url: /
-          weight: 1
         - name: À Propos
-          url: /a-propos/
+          url: '#about'
+          weight: 1
+        - name: Marketing
+          url: '#marketing'
           weight: 2
-        - name: Services
-          url: /services/
-          weight: 3
-        - name: Contact
+        - name: Health
           url: /contact/
-          weight: 4
+          weight: 3
 
   en:
     languageCode: en
-    title: Site Title
+    title: SebAssaf.com
     description: Site Tagline
     contentDir: content/en
     menu:
       main:
-        - name: Home
-          url: /
-          weight: 1
         - name: About
-          url: /about/
+          url: '#about'
+          weight: 1
+        - name: Marketing
+          url: '#marketing'
           weight: 2
-        - name: Services
-          url: /services/
+        - name: Health
+          url: '#health'
           weight: 3
-        - name: Contact
-          url: /contact/
+        - name: Consulting
+          url: '#consulting'
           weight: 4
+        - name: Contact
+          url: '#contact'
+          weight: 5
 
-googleAnalytics: ''
 gtm: ''
 enableRobotsTXT: true
 disableAliases: true

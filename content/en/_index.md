@@ -6,49 +6,23 @@ layout: "home"
 # Hero Header Section
 
 heading0: "Lorem Ipsum"
-heading1: "dolor sit amet, consectetur"
-heading2: "adipiscing elit, sed do"
+heading1: "It's Time To Grow"
+heading2: "Achieve your goals with more, speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
 
-# Section 2
+about_1: Seb understands first-hand the challenge of balancing business and life.
+about_2_heading: Business 
+about_2_text: Seb was exposed to entrepreneurship at a young age. Growing up around his dad’s restaurant, Seb was taught early on to value honesty, trust, and the importance of good communication in business. These foundational skills helped him springboard into the business world where he continued to develop his diverse skillset in marketing and business. He is particularly skilled in all facets of online marketing. With more than a decade of experience, Seb’s mission is to share his wealth of practical marketing experience with people like you, supporting your vision for building your business and helping you design successful marketing strategies.
+about_3_heading: Health
+about_3_text: Life was busy and business was good, but Seb soon learned that life is more than business. After a sudden illness stopped life short, he was forced to come to terms with the importance of a balanced life. When he discovered natural wellness and experienced healing through good nutrition, essential oils and yoga, Seb knew he wanted to share his transformation with others. As well as offering marketing consultations, Seb teaches yoga and offers wellness consultations to help you attain a healthier well-balanced life.
 
-section2__heading: "Headline 2"
+service1: Digital Marketing
+service1_text: In business, it's easy to get so overwhelmed with operations that you lose sight of your marketing objectives. When it comes to generating new clients and sales for your business online, Sebastian's wealth of experience and knowledge in digital marketing will help you find the little hinges that open big doors, and his connection to a very valuable network of contacts will help you get that extra edge over your competition.<br><br>Book a call now to start planning and achieving your business' digital marketing goals!
 
-section2__subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+service2: Health & Well-Being
+service2_text: Are you ready to take charge of your physical, mental & emotional well-being? An old zen proverb says, "You should sit in meditation for twenty minutes every day – unless you’re too busy; then you should sit for an hour."... There's no better time than the present to start meditating, moving your body, and transforming your health habits.<br><br>Book a call now to find out how you can reduce stress, increase your energy and feel better than you ever have before!
 
-box1: "Box 1"
-box1_alt: ""
-
-box2: "Box 2"
-box2_alt: ""
-
-box3: "Box 3"
-box3_alt: ""
-
-box4: "Box 4"
-box4_alt: ""
-
-# About Section
-
-section3__heading: "Section 3 Headline #1"
-
-section3__subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-section3__heading2: "Section 3 Headline #2"
-
-section3__subheading2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-home_big_alt: "Alt Tag of Big Image"
-
-
-# Section #4
-section4_h1: "More About #1"
-section4__desc1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-section4_h2: "More About #2"
-section4__desc2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-section4_h3: "More About #3"
-section4__desc3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+service3: Coaching & Consulting
+service3_text: Do you struggle with clarity, direction & accountability when it comes to your goals? None of the successful people in the world work alone. All of them have either coaches, consultants or mentors that help them breakthrough barriers to their next milestone. By working with Sebastian, you will have a a teammate dedicated to your success.<br><br> Book a call now to discover how you can work together towards getting clear on your goals and making a quantum leap forward!
 
 testimonial1: "Renaud Gagne"
 testimonial1__alt: "Picture of Renaud Gagne"

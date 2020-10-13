@@ -1,27 +1,40 @@
 <!-- HERO HEADER LEFT BEGIN -->
-<header class="hero is-fullheight-with-navbar is-light">
+<header class="hero is-fullheight is-fullheight-with-navbar is-light">
 
     <div class="hero-body">
 
         <div class="container">
+            <div class="columns">
+                
+                <div class="col is-flex is-justified-center is-column">
+                    <h1 class="title is-size-1 has-text-centered-touch" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">{{ .Params.heading1  }}</h1>
     
-            <h1 class="title is-size-1 has-text-centered-touch" data-aos="fade" data-aos-duration="800" data-aos-delay="0">{{ .Params.heading1  }}</h1>
+                    <h2 class="subtitle is-size-3 has-text-centered-touch" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">{{ .Params.heading2 }}</h2>
+        
+                    <div class="has-text-centered-touch" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+                    {{ if eq .Site.Language.Lang "fr" }}
+                      
+                    <a href="{{ .Site.BaseURL }}services" class="button is-primary has-text-centered" >{{ .Site.Params.cta.cta_fr }}</a>
+                            
+                    {{ else }}
+                            
+                    <a href="{{ .Site.BaseURL }}en/services" class="button is-primary">{{ .Site.Params.cta.cta_en }}</a>
+                            
+                    {{ end }}
+                    </div>
+                </div>
+                <div class="column is-flex is-column is-aligned-end">
+                    <div class="rainbow shadow">
+                    <img src="img/seb3.jpg" class="hero__img lazyload" alt="Sebastian Assaf">
+                    </div>
+                </div>
     
-            <h2 class="subtitle is-size-3 has-text-centered-touch" data-aos="fade-right" data-aos-duration="800" data-aos-delay="700">{{ .Params.heading2 }}</h2>
-
-            <div class="has-text-centered-touch" data-aos="fade-up" data-aos-duration="800" data-aos-delay="1400">
-            {{ if eq .Site.Language.Lang "fr" }}
-              
-            <a href="{{ .Site.BaseURL }}services" class="button is-primary has-text-centered" >{{ .Site.Params.cta.cta_fr }}</a>
-                    
-            {{ else }}
-                    
-            <a href="{{ .Site.BaseURL }}en/services" class="button is-primary">{{ .Site.Params.cta.cta_en }}</a>
-                    
-            {{ end }}
+            
 
             </div>
     
+    </div>
+
     </div>
     
     </header>
