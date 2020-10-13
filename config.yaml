@@ -32,8 +32,8 @@ params:
         reviewvalue: ''
         reservation: 'false'
         openinghour: 'Tu-Fr 13:00-16:00'
-        logo: img/logo.png
-        image: img/og.png
+        logo: apple-icon-180x180.png
+        image: img/seb.png
         address: 8 rue principale sud,
         address2: '#103'
         city: Delson
