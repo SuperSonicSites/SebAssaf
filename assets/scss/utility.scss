@@ -16,6 +16,9 @@
 .text-uppercase {
     text-transform: uppercase;
 }
+.fill-brand {
+fill: $primary !important;
+}
 .fill-brand-footer {
     width: 20px;
     height: 20px;

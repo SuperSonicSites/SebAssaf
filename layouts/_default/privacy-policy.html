@@ -1,10 +1,11 @@
 {{ define "main" }}
 
 {{- partial "elements/subheader.html" . }}
-
-<div class="container privacy-policy py-5 my-5">
+<section class="section is-small">
+<div class="container privacy-policy">
 
     {{ .Content }}
     
 </div>
+</section>
 {{ end }}

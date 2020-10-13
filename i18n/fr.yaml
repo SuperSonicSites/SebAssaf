@@ -25,7 +25,7 @@
 - id: contactdetail
   translation: "Informations"
 - id: send
-  translation: "Envoyer"
+  translation: "Envoyer Le Message"
 
 # Footer
 - id: navigate

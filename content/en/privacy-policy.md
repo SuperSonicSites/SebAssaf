@@ -16,8 +16,9 @@ This page informs you of our policies regarding the collection, use and disclosu
 
 We use your data to provide and improve the service. By using our services, you agree to the collection and use of information in accordance with this policy.
 
-### DEFINITIONS
 -----------
+### DEFINITIONS
+
 
 - Service \
     The service is the website operated by {{< param companyname >}}

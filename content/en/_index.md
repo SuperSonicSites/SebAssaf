@@ -1,13 +1,13 @@
 ---
-title: "Page title"
-description: "Page Description"
+title: "It's Time To Grow"
+description: "Achieve your goals with more speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
 layout: "home"
 
 # Hero Header Section
 
 heading0: "Lorem Ipsum"
 heading1: "It's Time To Grow"
-heading2: "Achieve your goals with more, speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
+heading2: "Achieve your goals with more speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
 
 about_1: Seb understands first-hand the challenge of balancing business and life.
 about_2_heading: Business 
