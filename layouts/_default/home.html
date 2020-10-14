@@ -12,7 +12,7 @@
         <div class="columns is-6">
             <div class="column">
 
-                <img src="img/about-image.jpg" class="border-green shadow" alt="{{ .Params.about_alt }}"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
+                <img src="{{ .Site.BaseURL }}img/about-image.jpg" class="border-green shadow" alt="{{ .Params.about_alt }}"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
 
             </div>
             <div class="column is-6 is-flex is-row is-aligned-center">
@@ -42,7 +42,7 @@
                 <a href="{{.Params.cta_link}}" class="button is-secondary mt-5">{{.Params.cta_text}}</a>
             </div>
             <div class="column">
-                <img src="img/marketing.jpg" class="shadow lazyload border-white" alt="{{ .Params.marketing_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
+                <img src="{{ .Site.BaseURL }}img/marketing.jpg" class="shadow lazyload border-white" alt="{{ .Params.marketing_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
                 <a href="{{.Params.cta_link}}" class="button is-primary mt-5">{{.Params.cta_text}}</a>
             </div>
             <div class="column">
-                <img src="img/health.jpg" class="shadow lazyload border-green" alt="{{ .Params.health_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
+                <img src="{{ .Site.BaseURL }}img/health.jpg" class="shadow lazyload border-green" alt="{{ .Params.health_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@
     <div class="container has-text-white">
         <div class="columns is-8">
             <div class="column">
-                <img src="img/consulting.jpg" class="shadow lazyload border-white" alt="{{ .Params.coaching_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
+                <img src="{{ .Site.BaseURL }}img/consulting.jpg" class="shadow lazyload border-white" alt="{{ .Params.coaching_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
             </div>
             <div class="column">
                 <h2 class="is-size-1 bold">{{ .Params.Service3 }}</h2>
