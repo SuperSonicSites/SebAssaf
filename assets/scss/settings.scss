@@ -1,0 +1,8 @@
+.is-primary:hover {
+    background-color: green !important;
+  }
+.is-secondary:hover {
+    background-color: $primary !important;
+    color: white !important;
+    border-color: white !important;
+}

@@ -17,7 +17,7 @@
       {{ end }}
       {{ if .Site.Params.showLanguageSelector }}
       <div class="navbar-item">
-          <div class="buttons">
+          <div class="">
           
             {{ if .IsTranslated }}
           
@@ -25,11 +25,11 @@
           
             {{ if eq .Site.Language.Lang "en" }}
           
-            <a class="button is-primary" title="English" href="{{ .RelPermalink }}">EN</a>
+            <a class="button is-primary translate" title="English" href="{{ .RelPermalink }}">EN</a>
           
             {{ else }}
          
-            <a class="button is-primary" title="French" href="{{ .RelPermalink }}">FR</a>
+            <a class="button is-primary translate" title="French" href="{{ .RelPermalink }}">FR</a>
            
             {{ end }}
           

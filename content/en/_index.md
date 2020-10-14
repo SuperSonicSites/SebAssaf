@@ -3,12 +3,16 @@ title: "It's Time To Grow"
 description: "Achieve your goals with more speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
 layout: "home"
 
+cta_link: '#'
+cta_text: Book a call
+
 # Hero Header Section
 
 heading0: "Lorem Ipsum"
 heading1: "It's Time To Grow"
 heading2: "Achieve your goals with more speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
 
+about_heading: About Seb
 about_1: Seb understands first-hand the challenge of balancing business and life.
 about_2_heading: Business 
 about_2_text: Seb was exposed to entrepreneurship at a young age. Growing up around his dad’s restaurant, Seb was taught early on to value honesty, trust, and the importance of good communication in business. These foundational skills helped him springboard into the business world where he continued to develop his diverse skillset in marketing and business. He is particularly skilled in all facets of online marketing. With more than a decade of experience, Seb’s mission is to share his wealth of practical marketing experience with people like you, supporting your vision for building your business and helping you design successful marketing strategies.

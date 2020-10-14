@@ -11,7 +11,7 @@
 }
 #marketing, #consulting {
     clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-  }
+}
 .border-white {
     padding:3px;
     border: 3px solid white;
@@ -61,6 +61,16 @@
 		border-radius: 0px;
 	}
 }
+#contact .contactwidget a {
+    color: green;
+    text-decoration: underline;
+    transition: all .3s;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
 /*
 @media (min-width: 280px) {
     .hero {
@@ -107,128 +117,34 @@
 }
 }
 
+*/
+@media (max-width: 768px) {
+    #home {
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+        padding: 80px 0;
 
-@media (min-width: 750px) {
-    .hero {
-        min-height: 100vh;
-        background-color:#D8D1B7;;
-        border-bottom: 6px solid $brand-color;
-
-        &__features {
-            letter-spacing: 3px;
-        }
-
-    .btn-hero {
-        font-size: 1.1rem !important;
-    } 
-
-    &__box {
-        color: #D8D1B7;;
-        z-index: 10;
-        margin-top: 200px;
-        h1 {
-            font-size: 2.75rem;
-            font-weight: normal !important;
-            letter-spacing: 3px;
-        }
-        h2 {
-            font-size: 1.5rem;
-            letter-spacing: 3px;
-        }
-        h3 {
-            font-size: 1.5rem;
-            letter-spacing: 3px;
+        .hero_text {
+            margin-bottom: 30px;
         }
     }
-    &__img {
-        bottom: 0px;
-        right: 0%;
-        z-index: 5;
-        width: 55%;
-
-        &--1 {
-            width: 100% !important;
-        }
+    #marketing, #consulting {
+        clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
-}
+    #contact {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .hero__img {
+        max-width: 100% !important;
+    }
 }
 @media (min-width: 1280px) {
-    .hero {
-        background-color: #D8D1B7;
-        border-bottom: 6px solid $brand-color;
-
-        &__features {
-            letter-spacing: 3px;
-        }
-
-    .btn-hero {
-        font-size: 1.25rem !important;
-    } 
-
-    &__box {
-        z-index: 10;
-        h1 {
-            font-size: 3.75rem;
-            font-weight: normal !important;
-            letter-spacing: 3px;
-        }
-        h2 {
-            font-size: 2rem;
-            letter-spacing: 3px;
-        }
-        h3 {
-            font-size: 2rem;
-            letter-spacing: 3px;
-        }
-    }
-    &__img {
-        bottom: 0px;
-        right: 0%;
-        z-index: 5;
-        width: 40% !important;
-    }
+    
 }
-}
+
 
 @media (min-width: 1980px) {
-.hero {
-    background-color: white;
-    border-bottom: 6px solid $brand-color;
 
-    &__features {
-        letter-spacing: 3px;
-    }
-
-    .btn-hero {
-        font-size: 1.5rem !important;
-    } 
-
-    &__box {
-        color: white;
-        z-index: 10;
-        h1 {
-            font-size: 5.75rem;
-            font-weight: normal !important;
-            letter-spacing: 3px;
-        }
-        h2 {
-            font-size: 2rem;
-            letter-spacing: 3px;
-        }
-        h3 {
-            font-size: 2rem;
-            letter-spacing: 3px;
-        }
-    }
-    &__img {
-        bottom: 0px;
-        right: 0%;
-        z-index: 5;
-        
-        &--1 {
-            width: 60% !important;
-        }
-    }
 }
-}
-*/
