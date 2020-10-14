@@ -52,13 +52,14 @@
     <div class="container">
         <div class="columns is-8">
             <div class="column">
+                <img src="{{ .Site.BaseURL }}img/health.jpg" class="shadow lazyload border-green" alt="{{ .Params.health_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
+            </div>
+            <div class="column">
                 <h2 class="is-size-2 is-bold">{{ .Params.Service2 }}</h2>
                 <p class="block py-1">{{.Params.service2_text | safeHTML}}</p>
                 <a href="{{.Params.cta_link}}" class="button is-primary my-5">{{.Params.cta_text}}</a>
             </div>
-            <div class="column">
-                <img src="{{ .Site.BaseURL }}img/health.jpg" class="shadow lazyload border-green" alt="{{ .Params.health_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
-            </div>
+        
         </div>
     </div>
 </section>
