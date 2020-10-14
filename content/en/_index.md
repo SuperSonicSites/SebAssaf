@@ -3,7 +3,7 @@ title: "It's Time To Grow"
 description: "Achieve your goals with more speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
 layout: "home"
 
-cta_link: '#'
+cta_link: 'https://app.acuityscheduling.com/schedule.php?owner=18476238'
 cta_text: Book a call
 
 # Hero Header Section

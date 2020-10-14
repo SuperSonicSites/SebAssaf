@@ -3,7 +3,7 @@ title: "Il Est Temps De S'Améliorer"
 description: "Atteignez vos objectifs avec plus de rapidité, de facilité et de plaisir en vous associant à un professionnel comme Sebastian Assaf."
 layout: "home"
 
-cta_link: '#'
+cta_link: 'https://app.acuityscheduling.com/schedule.php?owner=18476238'
 cta_text: Réservez un appel
 
 # Hero Header Section
@@ -23,7 +23,7 @@ about_3_text: La vie était bien remplie et les affaires étaient bonnes, mais S
 
 # Marketing Section
 marketing_alt: Image d'un tableau blanc utilisé pour la planification des stratégies marketing
-service1: Le Marketing Numérique
+service1: Marketing Numérique
 service1_text: En affaires, il est facile d'être tellement submergé par la gestion qu'on perd de vue nps objectifs marketing. Lorsqu'il s'agit de générer de nouveaux clients et des ventes pour votre entreprise en ligne, la richesse de l'expérience et des connaissances de Sebastian en marketing numérique vous aidera à trouver les petites charnières qui ouvrent de grandes portes, et sa connexion à un réseau de contacts très précieux vous aidera à y parvenir. un avantage supplémentaire sur vos concurrents. <br> <br> Réservez un appel dès maintenant pour commencer à planifier et atteindre les objectifs de marketing numérique de votre entreprise!
 
 # Health & Well-being Section 
