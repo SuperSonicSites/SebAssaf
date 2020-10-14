@@ -28,7 +28,7 @@ service1_text: En affaires, il est facile d'être tellement submergé par la ges
 
 # Health & Well-being Section 
 health_alt: Lotus représentant l'épanouissement de l'esprit et du corp
-service2: Santé et Bien-Ètre
+service2: Santé et Bien-Être
 service2_text: "Êtes-vous prêt à prendre en charge votre bien-être physique, mental et émotionnel? Un vieux proverbe zen dit: 'Vous devriez vous asseoir en méditation pendant vingt minutes chaque jour - à moins que vous ne soyez trop occupé; alors vous devriez vous asseoir pendant une heure.' ... Il n'y a pas de meilleur moment que le présent pour commencer à méditer, bouger votre votre corps et transformer vos habitudes de santé. <br> <br> Réservez un appel dès maintenant pour découvrir comment réduire le stress, augmenter votre énergie et vous sentir mieux que jamais!"
 
 # Coaching & Consulting Seection

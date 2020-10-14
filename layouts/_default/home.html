@@ -17,7 +17,7 @@
             </div>
             <div class="column is-6 is-flex is-row is-aligned-center">
                 <div class="">
-                    <h2 class="is-size-2">
+                    <h2 class="is-size-2 is-bold">
                         {{.Params.about_heading}}
                     </h2>
                     <p class="py-3 block">
@@ -37,9 +37,9 @@
     <div class="container has-text-white">
         <div class="columns is-8">
             <div class="column">
-                <h2 class="is-size-1 bold">{{ .Params.Service1 }}</h2>
+                <h2 class="is-size-2 is-bold">{{ .Params.Service1 }}</h2>
                 <p class="block py-1">{{.Params.service1_text | safeHTML}}</p>
-                <a href="{{.Params.cta_link}}" class="button is-secondary mt-5">{{.Params.cta_text}}</a>
+                <a href="{{.Params.cta_link}}" class="button is-secondary my-5">{{.Params.cta_text}}</a>
             </div>
             <div class="column">
                 <img src="{{ .Site.BaseURL }}img/marketing.jpg" class="shadow lazyload border-white" alt="{{ .Params.marketing_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
@@ -52,9 +52,9 @@
     <div class="container">
         <div class="columns is-8">
             <div class="column">
-                <h2 class="is-size-1 bold">{{ .Params.Service2 }}</h2>
+                <h2 class="is-size-2 is-bold">{{ .Params.Service2 }}</h2>
                 <p class="block py-1">{{.Params.service2_text | safeHTML}}</p>
-                <a href="{{.Params.cta_link}}" class="button is-primary mt-5">{{.Params.cta_text}}</a>
+                <a href="{{.Params.cta_link}}" class="button is-primary my-5">{{.Params.cta_text}}</a>
             </div>
             <div class="column">
                 <img src="{{ .Site.BaseURL }}img/health.jpg" class="shadow lazyload border-green" alt="{{ .Params.health_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
@@ -70,9 +70,9 @@
                 <img src="{{ .Site.BaseURL }}img/consulting.jpg" class="shadow lazyload border-white" alt="{{ .Params.coaching_alt }}" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="0">
             </div>
             <div class="column">
-                <h2 class="is-size-1 bold">{{ .Params.Service3 }}</h2>
+                <h2 class="is-size-2 is-bold">{{ .Params.Service3 }}</h2>
                 <p class="block py-1">{{.Params.service3_text | safeHTML}}</p>
-                <a href="{{.Params.cta_link}}" class="button is-secondary mt-5">{{.Params.cta_text}}</a>
+                <a href="{{.Params.cta_link}}" class="button is-secondary my-5">{{.Params.cta_text}}</a>
             </div>
         </div>
     </div>
@@ -80,7 +80,7 @@
 
 <section id="contact" class="section is-small">
     <div class="container">
-<h2 class="is-size-1 has-text-centered has-text-left-touch">
+<h2 class="is-size-2 is-bold has-text-centered has-text-left-touch">
     {{ .Params.contact_heading }}
 </h2>
 <p class="has-text-centered has-text-left-touch block py-2">{{ .Params.contact_subheading }}</p>
