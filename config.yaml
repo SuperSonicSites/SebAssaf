@@ -31,7 +31,7 @@ params:
         priceRange: $$$
         reservation: 'false'
         openinghour: 'Tu-Fr 13:00-16:00'
-        logo: apple-icon-180x180.png
+        logo: android-chrome-512x512
         image: img/og.jpg
         address: 8 rue principale sud,
         address2: '#103'
