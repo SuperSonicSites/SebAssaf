@@ -20,6 +20,8 @@
   translation: "Phone"
 - id: email
   translation: "Email"
+- id: address
+  translation: "Address"
 - id: contactus
   translation: "Get in Touch"
 - id: contactdetail
