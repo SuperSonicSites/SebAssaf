@@ -85,7 +85,7 @@
 <h2 class="is-size-2 is-bold has-text-centered has-text-left-touch">
     {{ .Params.contact_heading }}
 </h2>
-<p class="has-text-centered has-text-left-touch block py-2">{{ .Params.contact_subheading }}</p>
+<p class="has-text-centered has-text-left-touch block py-2">{{ .Params.contact_subheading | safeHTML }}</p>
 </div>
 <div class="column is-half is-offset-one-quarter shadow is-bordered my-5 p-5">
     <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">

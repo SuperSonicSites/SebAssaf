@@ -38,5 +38,5 @@ service3_text: Avez-vous des difficultés avec la clarté, la direction et la re
 
 # Contact Section
 contact_heading: Écrivez-moi!
-contact_subheading: Vous avez des questions ou un simple besoin de me joindre? Écrivez-moi ci-dessous et je vous répondrai rapidement.
+contact_subheading: Vous avez des questions ou un simple besoin de me joindre?<br> Écrivez-moi ci-dessous et je vous répondrai rapidement.
 ---

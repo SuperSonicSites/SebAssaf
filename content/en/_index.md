@@ -38,5 +38,5 @@ service3_text: Do you struggle with clarity, direction & accountability when it 
 
 # Contact Section
 contact_heading: Drop me a line!
-contact_subheading: Have questions or simple need to reach me? Drop me a line below and I'll follow up with you quickly.
+contact_subheading: Have questions or simple need to reach me?<br> Drop me a line below and I'll follow up with you quickly.
 ---
