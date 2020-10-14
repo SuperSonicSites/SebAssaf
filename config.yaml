@@ -28,8 +28,7 @@ params:
         instagram: ''
     schema:
         type: ProfessionalService
-        reviewcount: ''
-        reviewvalue: ''
+        priceRange: $$$
         reservation: 'false'
         openinghour: 'Tu-Fr 13:00-16:00'
         logo: apple-icon-180x180.png
