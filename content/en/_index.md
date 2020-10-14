@@ -13,7 +13,7 @@ heading2: "Achieve your goals with more speed, ease and pleasure by partnering w
 hero_alt: "Sebastian Assaf on his phone answering with clients"
 
 #About Section
-about_alt: 
+about_alt: Sebastian Assaf outside running and making the most of his health
 about_heading: About Seb
 about_1: Seb understands first-hand the challenge of balancing business and life.
 about_2_heading: Business 
@@ -34,7 +34,7 @@ service2_text: Are you ready to take charge of your physical, mental & emotional
 # Coaching & Consulting Seection
 coaching_alt: Seb Assaf drawing on a piece of paper to track goals and objectives
 service3: Coaching & Consulting
-service3_text: Do you struggle with clarity, direction & accountability when it comes to your goals? None of the successful people in the world work alone. All of them have either coaches, consultants or mentors that help them breakthrough barriers to their next milestone. By working with Sebastian, you will have a a teammate dedicated to your success.<br><br> Book a call now to discover how you can work together towards getting clear on your goals and making a quantum leap forward!
+service3_text: Do you struggle with clarity, direction & accountability when it comes to your goals? None of the successful people in the world work alone. All of them have either coaches, consultants or mentors that help them break through barriers to their next milestone. By working with Sebastian, you will have a teammate dedicated to your success.<br><br> Book a call now to discover how you can work together towards getting clear on your goals and making a quantum leap forward!
 
 # Contact Section
 contact_heading: Drop me a line!
