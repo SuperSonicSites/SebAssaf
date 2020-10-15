@@ -82,7 +82,7 @@ languages:
           url: '#contact'
           weight: 5
 
-gtm: ''
+gtm: 'GTM-TNK3X52'
 enableRobotsTXT: true
 disableAliases: true
 disableKinds:
