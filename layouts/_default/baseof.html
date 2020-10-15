@@ -1,50 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  <head> 
+  <head>
     <!-- Required meta tags -->
-    
-    <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- CSS Processing -->
     {{ $styles := resources.Get "scss/import.scss" | toCSS | minify }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" />
 
     <!-- Animate On Scroll -->
-  
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Search Engine Optimization -->
     <title>{{.Title}} - {{ $.Site.Title }}</title>
-  
-    {{- partial "head/schema.html" . }}
 
-    {{ if .Params.hidden }}
-  
+    {{- partial "head/schema.html" . }} {{ if .Params.hidden }}
+
     <meta name="robots" content="noindex" />
-  
+
     {{ else }}
 
-    <meta name="robots" content="index, follow">
-  
-    {{ end }}
+    <meta name="robots" content="index, follow" />
 
-    {{- partial "head/gtm-head.html" . }}
+    {{ end }} {{- partial "head/gtm-head.html" . }}
   </head>
   <body>
     <div id="content">
-      {{- partial "head/nav.html" . }}
-        {{- block "main" . }}{{- end }}
+      {{- partial "head/nav.html" . }} {{- block "main" . }}{{- end }}
     </div>
     {{- partial "footer/gtm-body.html" . }}
     <footer class="">
-      {{- partial "footer2.html" . }}
-      {{- partial "footer/credits.html" . }}
-      {{- partial "footer/scripts.html" . }}
-      
+      {{- partial "footer2.html" . }} {{- partial "footer/credits.html" . }} {{-
+      partial "footer/scripts.html" . }}
     </footer>
-
   </body>
-
 </html>

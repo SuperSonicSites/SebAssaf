@@ -1,26 +1,26 @@
 {{ define "main" }}
 
 <header class="hero is-fullheight is-fullheight-with-navbar is-light">
+  <div class="hero-body">
+    <div class="container is-flex is-column is-aligned-center">
+      <h1 class="is-size-1 has-text-centered">{{ .Params.title }}</h1>
+      <h2 class="is-size-4 has-text-centered">{{ .Params.message }}</h2>
 
-    <div class="hero-body">
+      {{ if eq .Site.Language.Lang "fr" }}
 
-        <div class="container is-flex is-column is-aligned-center">
-            <h1 class="is-size-1 has-text-centered">{{ .Params.title }}</h1>
-            <h2 class="is-size-4 has-text-centered">{{ .Params.message }}</h2>
+      <a href="{{ .Site.BaseURL }}" class="button is-primary mt-5"
+        >Page D'Accueil</a
+      >
 
-            {{ if eq .Site.Language.Lang "fr" }}
+      {{ else }}
 
-            <a href="{{ .Site.BaseURL }}" class="button is-primary mt-5">Page D'Accueil</a>
-                
-            {{ else }}
-                
-            <a href="{{ .Site.BaseURL }}en" class="button is-primary mt-5">Return Home</a>
-            
-            {{ end }}
-        </div>
-  
-        </div>
-  
-  </header>
+      <a href="{{ .Site.BaseURL }}en" class="button is-primary mt-5"
+        >Return Home</a
+      >
+
+      {{ end }}
+    </div>
+  </div>
+</header>
 
 {{ end }}

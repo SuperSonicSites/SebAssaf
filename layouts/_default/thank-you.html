@@ -1,31 +1,24 @@
-{{ define "main" }}
+{{ define "main" }} {{- partial "elements/subheader.html" . }}
 
-{{- partial "elements/subheader.html" . }}
+<section
+  class="container thankyou d-flex flex-column align-items-center justify-content-center my-5 py-5"
+>
+  <h1 class="display-4">Votre message a bien été envoyé.</h1>
 
-<section class="container thankyou d-flex flex-column align-items-center justify-content-center my-5 py-5">
+  <p>Your message was succesfully sent</p>
 
+  <h3 class="display-5">Nous vous répondrons dès que possible</h3>
 
-    <h1 class="display-4">Votre message a bien été envoyé.</h1>
+  <p>We will reply to you as soon as possible.</p>
 
+  {{ .Content }} {{ if eq .Site.Language.Lang "fr" }}
 
-    <p>Your message was succesfully sent</p>
+  <a href="{{ .Site.BaseURL }}" class="btn btn-primary my-3">Page D'Accueil</a>
 
+  {{ else }}
 
-    <h3 class="display-5">Nous vous répondrons dès que possible</h3>
+  <a href="{{ .Site.BaseURL }}en" class="btn btn-primary my-3">Return Home</a>
 
-    <p>We will reply to you as soon as possible.</p>
-
-    {{ .Content }}
-
-    {{ if eq .Site.Language.Lang "fr" }}
-
-    <a href="{{ .Site.BaseURL }}" class="btn btn-primary my-3">Page D'Accueil</a>
-        
-    {{ else }}
-        
-    <a href="{{ .Site.BaseURL }}en" class="btn btn-primary my-3">Return Home</a>
-    
-    {{ end }}
-
+  {{ end }}
 </section>
 {{ end }}
