@@ -1,5 +1,5 @@
 baseURL: https://www.sebassaf.com/
-DefaultContentLanguage: fr
+DefaultContentLanguage: en
 
 params:
     businessname: 'SebAssaf'
