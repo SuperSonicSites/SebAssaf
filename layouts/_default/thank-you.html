@@ -1,24 +1,23 @@
 {{ define "main" }} {{- partial "elements/subheader.html" . }}
 
-<section
-  class="section is-medium thankyou d-flex flex-column align-items-center justify-content-center my-5 py-5"
+<section class="section is-medium is-flex is-column is-aligned-center is-justified-center"
 >
-<div class="container">
-  <h2 class="is-size-2">Votre message a bien été envoyé.</h2>
+<div class="container has-text-centered">
+  <h2 class="is-size-2 py-5">Votre message a bien été envoyé.</h2>
 
   <p>Your message was succesfully sent</p>
 
-  <h3 class="display-5">Nous vous répondrons dès que possible</h3>
+  <h3 class="is-size-2 py-5">Nous vous répondrons dès que possible</h3>
 
   <p>We will reply to you as soon as possible.</p>
 
   {{ .Content }} {{ if eq .Site.Language.Lang "fr" }}
 
-  <a href="{{ .Site.BaseURL }}" class="button is-primary my-3">Page D'Accueil</a>
+  <a href="{{ .Site.BaseURL }}" class="button is-primary my-5">Page D'Accueil</a>
 
   {{ else }}
 
-  <a href="{{ .Site.BaseURL }}en" class="button is-primary my-3">Return Home</a>
+  <a href="{{ .Site.BaseURL }}en" class="button is-primary my-5">Return Home</a>
 
   {{ end }}
 </div>
