@@ -1,9 +1,10 @@
 {{ define "main" }} {{- partial "elements/subheader.html" . }}
 
 <section
-  class="container thankyou d-flex flex-column align-items-center justify-content-center my-5 py-5"
+  class="section is-medium thankyou d-flex flex-column align-items-center justify-content-center my-5 py-5"
 >
-  <h1 class="display-4">Votre message a bien été envoyé.</h1>
+<div class="container">
+  <h2 class="is-size-2">Votre message a bien été envoyé.</h2>
 
   <p>Your message was succesfully sent</p>
 
@@ -13,12 +14,13 @@
 
   {{ .Content }} {{ if eq .Site.Language.Lang "fr" }}
 
-  <a href="{{ .Site.BaseURL }}" class="btn btn-primary my-3">Page D'Accueil</a>
+  <a href="{{ .Site.BaseURL }}" class="button is-primary my-3">Page D'Accueil</a>
 
   {{ else }}
 
-  <a href="{{ .Site.BaseURL }}en" class="btn btn-primary my-3">Return Home</a>
+  <a href="{{ .Site.BaseURL }}en" class="button is-primary my-3">Return Home</a>
 
   {{ end }}
+</div>
 </section>
 {{ end }}
