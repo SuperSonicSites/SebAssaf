@@ -14,3 +14,9 @@ command = "hugo --gc --minify"
 	from = "/*"
 	to = "/404/"
 	status = 404
+[[redirects]]
+	from = "/support"
+	to = "/?ubwc=tAwyWnWOX1lBjM29i3H334195-65727"
+	status = 301
+
+ 
